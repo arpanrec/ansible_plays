@@ -14,6 +14,7 @@ if ! hash pip3 &>/dev/null; then
 	exit 1
 fi
 
+rm -rf "${__clone_directory}"
 mkdir -p "$(dirname "${__clone_directory}")"
 
 if [[ ! -d ${__clone_directory} ]]; then

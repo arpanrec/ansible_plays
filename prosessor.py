@@ -2,4 +2,6 @@
 
 import sys
 
-print("The arguments are:", str(sys.argv))
+input_argv = sys.argv[1:]
+
+print("The arguments are:", str(input_argv))
